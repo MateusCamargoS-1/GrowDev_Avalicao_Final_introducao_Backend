@@ -1,5 +1,4 @@
 import { recados } from '../index';
-import { usuarios } from '../index';
 
 const messageExists = (req, res, next) => {
     const id = parseInt(req.params.id);
