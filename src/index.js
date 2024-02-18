@@ -148,16 +148,16 @@ app.delete('/messages/:userEmail/:id', messageExists, (req, res) => {
     const id = parseInt(req.params.id);
     const email = req.params.userEmail;
     
-    const indiceRecado = recados.findIndex(recado => recado.id === id);
     const usuario = usuarios.find(user => user.email === email);
-
-    recados.splice(indiceRecado, 1);
-    
     const indiceRecadoUsuario = usuario.recado.findIndex(recado => recado.id === id);
-
+    
     if(indiceRecadoUsuario !== -1) {
         usuario.recado.splice(indiceRecadoUsuario, 1);
     }
+
+    const indiceRecado = recados.findIndex(recado => recado.id === id);
+    recados.splice(indiceRecado, 1);
+
 
     res.status(200).json({
         success: true,
