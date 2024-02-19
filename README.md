@@ -1,5 +1,6 @@
 
 # GrowDev Avaliação Final de Modulo
+[Link para a documentação da API - POSTMAN](https://documenter.getpostman.com/view/32755950/2sA2r9UheU)
 
 Este projeto consiste em uma aplicação simples usando Express.js que funciona como um backend para gerenciar usuários e suas mensagens. Inclui autenticação de usuários e autorização usando bcrypt para hash de senhas. Além disso, fornece funcionalidades para criar, ler, atualizar e excluir mensagens (recados).
 
