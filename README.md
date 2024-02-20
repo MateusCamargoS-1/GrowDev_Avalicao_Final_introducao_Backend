@@ -66,7 +66,6 @@ Este projeto consiste em uma aplicação simples usando Express.js que funciona 
   - Resposta:
     - `success`: Indica se a operação foi bem-sucedida
     - `message`: Mensagem descritiva
-    - `data`: Informações sobre a mensagem criada
 
 - **Ler Recados**: `GET /messages`
   - Recupera todas as mensagens.
@@ -110,3 +109,6 @@ Este projeto consiste em uma aplicação simples usando Express.js que funciona 
 - Express.js
 - Bcrypt.js
 - CORS
+
+## Tecnologias Utilizadas Para Teste
+- Postman
