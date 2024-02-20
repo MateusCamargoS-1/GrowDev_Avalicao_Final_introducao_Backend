@@ -57,7 +57,7 @@ Este projeto consiste em uma aplicação simples usando Express.js que funciona 
 
 ### Operações CRUD de Recados (Mensagens)
 
-- **Criar Recado**: `POST /criarRecados`
+- **Criar Recado**: `POST /createMessage`
   - Cria uma nova mensagem para um usuário.
   - Corpo da Requisição:
     - `userEmail`: Endereço de e-mail do usuário
@@ -68,14 +68,14 @@ Este projeto consiste em uma aplicação simples usando Express.js que funciona 
     - `message`: Mensagem descritiva
     - `data`: Informações sobre a mensagem criada
 
-- **Ler Recados**: `GET /recados`
+- **Ler Recados**: `GET /messages`
   - Recupera todas as mensagens.
   - Resposta:
     - `success`: Indica se a operação foi bem-sucedida
     - `message`: Mensagem descritiva
     - `data`: Lista de mensagens
 
-- **Atualizar Recado**: `PUT /recados/:id`
+- **Atualizar Recado**: `PUT /messages/:id`
   - Atualiza uma mensagem específica pelo seu ID.
   - Parâmetros da Requisição:
     - `id`: ID da mensagem a ser atualizada
@@ -86,7 +86,7 @@ Este projeto consiste em uma aplicação simples usando Express.js que funciona 
     - `success`: Indica se a operação foi bem-sucedida
     - `message`: Mensagem descritiva
 
-- **Excluir Recado**: `DELETE /recados/:userEmail/:id`
+- **Excluir Recado**: `DELETE /messages/:userEmail/:id`
   - Exclui uma mensagem específica pelo seu ID para um determinado usuário.
   - Parâmetros da Requisição:
     - `userEmail`: Endereço de e-mail do usuário
