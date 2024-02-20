@@ -30,7 +30,7 @@ Este projeto consiste em uma aplicação simples usando Express.js que funciona 
    yarn dev
    ```
 
-   O servidor será iniciado na porta 3333 por padrão. Você pode alterar essa porta modificando a variável `port` no arquivo `index.js`.
+   O servidor será iniciado na porta 3000 por padrão. Você pode alterar essa porta modificando a variável `port` no arquivo `index.js`.
 
 ## Endpoints
 
